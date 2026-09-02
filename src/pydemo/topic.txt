@@ -1,0 +1,32 @@
+Python Topics to Learn
+Python Basics
+Variables and Data Types
+Operators
+Strings
+Lists
+Tuples
+Sets
+Dictionaries
+Conditional Statements
+Loops
+Functions
+Comprehensions
+Exception Handling
+File Handling
+Modules and Packages
+Object-Oriented Programming (OOP)
+Iterators
+Generators
+Lambda Functions
+Decorators
+Context Managers
+Regular Expressions
+Type Hints
+Dataclasses
+Virtual Environments
+Package Management (pip)
+Testing
+Debugging
+Logging
+Advanced Python Concepts
+Python Projectsgit
