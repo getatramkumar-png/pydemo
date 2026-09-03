@@ -1,0 +1,135 @@
+"""Examples of Python if-condition properties and features."""
+
+
+print("Python If Condition Demo")
+print("=" * 30)
+
+a=10
+
+if a>5:
+    print("a is greater than 5")
+
+rain=False
+if rain:
+    print("umberalla is required")
+
+else:  
+    print("Not required")
+
+a=10
+b=10
+if a > b:
+    print("a is >b")
+elif b > a:
+    print("b > a")
+else:
+    print("a=b")
+
+#nested if
+
+a=2
+b=5
+
+if a>5:
+    if b>=100:
+        print("both if clauses pass")
+    else:
+        print("b is not > 100")
+else: print("a is not >5")  
+
+a=None
+
+if a is None:
+    print("a is none")
+
+a=2
+if a is not None:
+    print("a is not  None",a)
+
+
+print("="*30)
+
+
+# An if block runs only when its condition evaluates to True.
+age = 20
+if age >= 18:
+	print("Adult")
+
+# The condition can use comparison operators.
+temperature = 32
+if temperature > 30:
+	print("It is a hot day")
+
+# An else block handles the false condition.
+number = 7
+if number % 2 == 0:
+	print("Even number")
+else:
+	print("Odd number")
+
+# An elif chain checks conditions from top to bottom.
+mark = 82
+if mark >= 90:
+	grade = "A+"
+elif mark >= 75:
+	grade = "A"
+elif mark >= 50:
+	grade = "B"
+else:
+	grade = "Fail"
+print("Grade:", grade)
+
+# Logical operators combine multiple conditions.
+has_ticket = True
+is_on_guest_list = False
+if has_ticket and is_on_guest_list:
+	print("Entry allowed")
+else:
+	print("Entry denied")
+
+day = "Sunday"
+if day == "Saturday" or day == "Sunday":
+	print("It is the weekend")
+
+is_raining = False
+if not is_raining:
+	print("No umbrella needed")
+
+# Conditions can be nested when the second check depends on the first.
+balance = 1500
+withdrawal = 1000
+if withdrawal > 0:
+	if withdrawal <= balance:
+		print("Withdrawal successful")
+	else:
+		print("Insufficient balance")
+else:
+	print("Withdrawal must be positive")
+
+# Membership and identity checks can also be conditions.
+allowed_roles = ["admin", "editor"]
+role = "editor"
+if role in allowed_roles:
+	print("Role is allowed")
+
+value = None
+if value is None:
+	print("No value was provided")
+
+# Empty collections and zero are false-like; non-empty values are true-like.
+items = ["book", "pen"]
+if items:
+	print("The shopping list has items")
+
+# A conditional expression selects one value in a single line.
+score = 65
+result = "Pass" if score >= 50 else "Fail"
+print("Result:", result)
+
+# pass is useful as a temporary placeholder for a future block.
+if False:
+	pass
+
+print("If-condition features demonstrated successfully")
+
+    
