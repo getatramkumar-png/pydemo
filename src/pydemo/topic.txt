@@ -30,5 +30,3 @@ Debugging
 Logging
 Advanced Python Concepts
 Python Projectsgit
-
-new option yet to add...
