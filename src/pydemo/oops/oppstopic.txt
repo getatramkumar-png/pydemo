@@ -1,0 +1,41 @@
+Python OOP Topics
+Class
+Object
+Constructor — __init__()
+Instance Variables / Attributes
+Instance Methods
+self
+Class Variables
+Class Methods — @classmethod
+Static Methods — @staticmethod
+Encapsulation
+Access Modifiers / Naming Conventions
+Inheritance
+Single Inheritance
+Multilevel Inheritance
+Multiple Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+super()
+Method Overriding
+Polymorphism
+Method Overloading
+Operator Overloading
+Abstraction
+Abstract Classes — ABC
+Abstract Methods — @abstractmethod
+Properties — @property
+Getters and Setters
+Composition
+Aggregation
+Association
+Duck Typing
+Magic / Dunder Methods
+__str__()
+__repr__()
+__len__()
+__eq__()
+__add__()
+Dataclasses
+SOLID Principles
+OOP Design Patterns
