@@ -9,13 +9,7 @@ vscode
 =======
 https://code.visualstudio.com/
 
-Required EXTESNION:
-=================
-Python — Microsoft
-Pylance — Microsoft
-Recommended:
-Python Debugger — Microsoft
-Ruff — Astral Software
+
 
 UV
 ===
@@ -47,3 +41,73 @@ Select the Python interpreter IN VSCODE
 Ctrl + Shift + P
 SEARCH LIKE   "Python: Select Interpreter" 
 then select specfic project environment which you created
+
+
+Required EXTESNION:
+=================
+Python — Microsoft
+Pylance — Microsoft
+Recommended:
+Python Debugger — Microsoft
+Ruff — Astral Software
+
+Git install
+===============
+https://git-scm.com/install/windows?utm_source=chatgpt.com
+
+after install rstart vs code
+
+verify git in vscode termianl
+git --version
+
+
+configure git
+---------------
+git config --global user.name "Your Name"
+
+git config --global user.email "your-email@example.com"
+
+check:
+git config --global --list
+
+
+create git hub account:
+====================
+
+https://github.com/?utm_source=chatgpt.com
+account sign in use above mention username and mail
+
+then vscode:  Accounts icon → Sign in to Sync / GitHub
+or
+Ctrl + Shift + P  >> search >>>GitHub: Sign in
+
+then go to high level project directoy and initlaize git
+
+git init
+
+git status
+
+
+Create .gitignore
+
+addd these in above file.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+
+connect to your remore online gitgub only one timme
+git remote add origin https://github.com/YOUR_USERNAME/pydemo.git
+
+git remote -v
