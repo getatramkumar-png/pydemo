@@ -1,0 +1,49 @@
+python
+==============
+https://www.python.org/downloads/windows/?utm_source=chatgpt.com
+☑ Add python.exe to PATH
+python --version
+python -m pip --version
+
+vscode
+=======
+https://code.visualstudio.com/
+
+Required EXTESNION:
+=================
+Python — Microsoft
+Pylance — Microsoft
+Recommended:
+Python Debugger — Microsoft
+Ruff — Astral Software
+
+UV
+===
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+python -m uv --version
+
+CREATE PROJECT
+================
+cd C:\Users\Ramkumar
+mkdir pydemo
+cd pydemo
+
+INTIALIZE PROJECT
+=====================
+uv init
+
+CREATE ENVIRONMENT
+================
+uv venv
+
+ACTIVATE UV
+===============
+.venv\Scripts\Activate.ps1
+
+
+Select the Python interpreter IN VSCODE
+=============================
+
+Ctrl + Shift + P
+SEARCH LIKE   "Python: Select Interpreter" 
+then select specfic project environment which you created
